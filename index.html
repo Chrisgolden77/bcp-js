@@ -11,9 +11,8 @@
         See the console.
     </p>
     <script>
-    var x = 15;
-
-    var y = 23;
+    var y = prompt('what is the value of y?');
+    var x = prompt('what is the value of x?');
     var z = x + y;
     if(x + y > 25) {
         console.log(z);
@@ -26,11 +25,21 @@
     }
     </script>
     <script>
-       for(var i = 0; i < 10; i++) {
-           if( i % 2 === 0){
-           console.log(i);
-           }
-       }
+        var max = prompt('count to?')
+        var confirmed = confirm('click ok for even, cancel for odd');
+       for(var i = 0; i < max; i++) {
+            if(confirmed === true)
+            {
+            if( i % 2 === 0){
+             console.log(i);
+                }
+            }
+            else if(confirmed === false){
+                if(i % 2 === 1){
+                    console.log(i);
+                }
+            }
+        }  
         
     </script>
 </body>
