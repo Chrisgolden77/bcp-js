@@ -1,3 +1,3 @@
-# BCP Javacrip
+# BCP Javacript
 
 JavaScript learning!!!!
